@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <center>
+        <H1>Image Gallery App</H1>
+        <hr>
+        
+        <image onclick="handleImageDisplay(this)" src="1.jpg"; width="100px"; height="100px";>
+        <image onclick="handleImageDisplay(this)" src="2.jfif"; width="100px"; height="100px";>
+        <image onclick="handleImageDisplay(this)" src="3.jpg"; width="100px"; height="100px";>
+        <image onclick="handleImageDisplay(this)" src="4.jpg"; width="100px"; height="100px";>
+        <image onclick="handleImageDisplay(this)" src="5.jpg"; width="100px"; height="100px";> 
+        <image onclick="handleImageDisplay(this)" src="6.jfif"; width="100px"; height="100px";> 
+        <image onclick="handleImageDisplay(this)" src="7.jpg"; width="100px"; height="100px";>
+        <image onclick="handleImageDisplay(this)" src="8.jpg"; width="100px"; height="100px";>
+        <image onclick="handleImageDisplay(this)" src="9.jfif"; width="100px"; height="100px";>          
+        <image onclick="handleImageDisplay(this)" src="10.jpg"; width="100px"; height="100px";>
+        <br>
+        <image onclick="handleImageDisplay(this)" src="11.jpg"; width="100px"; height="100px";>
+        <image onclick="handleImageDisplay(this)" src="12.jpg"; width="100px"; height="100px";>
+        <image onclick="handleImageDisplay(this)" src="13.jpg"; width="100px"; height="100px";>
+        <image onclick="handleImageDisplay(this)" src="14.jpg"; width="100px"; height="100px";>
+        <image onclick="handleImageDisplay(this)" src="15.jpg"; width="100px"; height="100px";>
+        <image onclick="handleImageDisplay(this)" src="16.jpg"; width="100px"; height="100px";>
+        <image onclick="handleImageDisplay(this)" src="17.jpg"; width="100px"; height="100px";>
+        <image onclick="handleImageDisplay(this)" src="18.jpg"; width="100px"; height="100px";>  
+        <image onclick="handleImageDisplay(this)" src="19.jpg"; width="100px"; height="100px";>
+        <image onclick="handleImageDisplay(this)" src="20.jpg"; width="100px"; height="100px";>                    
+    </center>
+     <hr>
+
+         <center>
+            <img id="display" scr="" width="500px"; height="500px";>
+        </center>
+   
+        <script type="text/javascript">
+
+
+
+            function handleImageDisplay(param){
+                var displayHolder = document.getElementById('display');
+                displayHolder.setAttribute("src",param.src)
+             //   console.log (param.scr);
+            }
+           
+
+        </script>
+
+    </body>
+
+</html>
+    
